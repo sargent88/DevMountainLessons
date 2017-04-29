@@ -1,0 +1,1 @@
+there are tons of html elements out there - you can build a pretty decent page with some of these and virtually no CSS. Seriously, autosave is a feature you have to turn on? WTF
