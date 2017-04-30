@@ -1,14 +1,69 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900italic);
-
-html, body {
+html,
+body {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+.top-home-main {
+    width: 100%;
+    height: 400px;
+    background: url('../img/wot-masthead-dark.jpg') bottom no-repeat;
+    background-size: cover;
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #ccc;
+}
+
+h1 {}
+
+.hamburger {
+    height: 50px;
+    width: 50px;
+    background: black;
+}
+
+h1 {
+    font-size: 12px;
+}
+
+.nav {
+    display: none;
+    width: 65%;
+    height: 40px;
+    background: gray;
+}
+
+@media (min-width: 700px) {
+    .hamburger {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .nav {
+        display: block;
+    }
+}
+
+@media (min-width: 900px) {
+    .nav {
+        display: none;
+    }
 }
