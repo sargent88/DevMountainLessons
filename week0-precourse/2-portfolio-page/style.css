@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-links .fa-4x {
+    vertical-align: middle;
+}
+
+.navbar {
+    background-color: #252525
+}
+
+a:hover {
+    color: #252525;
+}
+
+h1,
+h4 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#logo {
+    background-color: rgba(10, 10, 10, .73);
+    border-radius: 30px;
+    color: #ffffff;
+    width: 350px;
+    padding: 25px 0;
+}
+
+.social {
+    padding-top: 20px;
+    color: rgb(23, 34, 168);
+}
+
+.social li {
+    display: inline;
+    padding: 15px;
+    margin: auto
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.color-white {
+    color: white;
+}
+
+.header {
+    margin: 0;
+    padding-top: 150px;
+    width: 100%;
+    height: 475px;
+    background: url("tile.jpg");
+}
+
+.about-me {
+    padding: 30px 30px;
+    background-color: rgb(27, 28, 12);
+    font-size: 1.15em;
+}
+
+.about-me img {
+    max-height: 250px;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+}
+
+#bio {
+    padding: 20px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.portfolio img {
+    border: 2px solid #252525;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.portfolio .row {
+    margin: 75px 20px
+}
+
+.portfolio h2 {
+    margin-top: 75px;
+}
+
+.portfolio h3 {
+    padding-top: 40px;
+    color: black;
+}
+
+.portfolio .col-sm-6 {
+    padding: 0;
+}
+
+.contact {
+    padding: 2px 20px;
+    background: #252525);
+}
+
+.contact-links li,
+.contact h4 {
+    color: white;
+}
+
+.contact-links li {
+    font-size: 1.25em;
+}
+
+.contact-links i {
+    color: rgb(23, 34, 168);
+}
+
+.contact h1 {
+    color: #252525;
+}
+
+#contact {
+    padding-top: 75px
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
+    background: rgb(27, 28, 12);
+    padding-top: 35px
+}
+
+#footer-links li {
+    display: inline;
+    padding: 0px 40px;
+    border-right: 1px solid white;
+}
+
+#footer-links li:nth-child(4) {
+    border-right: none;
+}
+
+@media only screen and (max-width: 770px) {
+    .about-me img {
+        display: block;
+        margin: 0 auto;
+    }
+    .portfolio img {
+        max-width: 150px;
+        margin-top: 170px;
+    }
+}

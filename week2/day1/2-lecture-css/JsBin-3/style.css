@@ -1,20 +1,42 @@
-#star-six {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
-    position: relative;
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: forestgreen;
+    margin: 0;
+    padding: 0
 }
 
-#star-six:after {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
-    position: absolute;
-    content: "";
-    top: 30px;
-    left: -50px;
+.container {
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
 }
+
+.row {
+    height: calc(100%/19);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row:nth-child(2n + 2) { /* This is the same as "even"*/
+    background-color: purple;
+}
+
+.row:nth-child(odd) {
+    background-color: yellow;
+}
+
+.row:hover {
+    background-color: gray;
+}
+
+/*.row:first-child {
+    background-color: orange;
+}
+
+.row:last-child {
+    background-color: dodgerblue;
+}*/
