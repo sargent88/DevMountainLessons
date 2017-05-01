@@ -22,3 +22,28 @@
     padding: 5px;
     box-sizing: border-box;
 }
+
+@media (max-width: 300px) {
+    .inner {
+        float: none;
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
+        border: 10px solid orange;
+    }
+    .container {
+        height: 400px;
+    }
+    .box {
+        display: none;
+    }
+    .inner:first-child {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) {
+    .inner {
+        background-color: #00aaff
+    }
+}
