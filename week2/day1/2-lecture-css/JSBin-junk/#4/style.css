@@ -1,0 +1,13 @@
+.pseudo-stuff: {
+    box-sizing: border-box;
+}
+
+.pseudo-stuff:before {
+    content:"\"";
+    float: left;
+}
+
+.pseudo-stuff:after {
+    float: left;
+    content:"\", -said no one, probably"
+}
