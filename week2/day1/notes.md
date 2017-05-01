@@ -17,3 +17,10 @@ Some good examples are in the 'wideOpen' doc that I just worked with
 
 *Second LECTURE*
 
+He would recommend redoing some old projects so that you learn different techniques for doing the same thing.
+
+HTML elements: the different tags used in the files.
+Semantic HTML: He can structure HTML with just divs because that's what people know and it's easy. Semantic HTML is something that tries to use the different tags to describe your intent (and you can obviously style those however you want)
+
+Box model:
+Margin, padding, border. He looks it up every time on CSS Tricks.
